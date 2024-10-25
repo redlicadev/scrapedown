@@ -2,6 +2,11 @@ name = "scrapedown"
 main = "src/index.ts"
 compatibility_date = "2023-10-30"
 
+# wrangler.toml (wrangler v3.79.0^)
+[observability]
+enabled = true
+head_sampling_rate = 1
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
 # Docs: https://developers.cloudflare.com/workers/platform/environment-variables

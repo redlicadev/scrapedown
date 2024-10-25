@@ -8,11 +8,11 @@ This project is a Cloudflare worker designed to scrape web pages and extract use
 
 ## Features
 
-- Fetch and scrape content from any given URL.
-- Extract metadata such as title, byline, excerpt, and more.
-- Convert HTML content to clean markdown format.
-- Handle requests with optional markdown formatting.
-- Remove everything but the content (Reader Mode)
+-   Fetch and scrape content from any given URL.
+-   Extract metadata such as title, byline, excerpt, and more.
+-   Convert HTML content to clean markdown format.
+-   Handle requests with optional markdown formatting.
+-   Remove everything but the content (Reader Mode)
 
 ## Usage
 
@@ -49,9 +49,9 @@ To deploy this Cloudflare worker, you have two options:
 
 1. Use Wrangler CLI:
 
-   ```sh
-   npx wrangler deploy
-   ```
+    ```sh
+    pnpx wrangler deploy
+    ```
 
 2. Click the "Deploy to Cloudflare Workers" button at the top of this README.
 
